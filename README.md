@@ -1,18 +1,8 @@
 # Pert-Analysis-with-Python
 
-_Made by [@DanteSch03](https://github.com/DanteSch03) and [@migueldiazpdj](https://github.com/migueldiazpdj)_
+_Made by [@DanteSc03](https://github.com/DanteSc03) and [@migueldiazpdj](https://github.com/migueldiazpdj)_
 
 This repository contains a Python implementation of the Program Evaluation and Review Technique (PERT), a widely used tool in project management for planning and scheduling tasks. We made this work for the subject of optimization for business analytics in order to analyze and understand the method and to be able to calculate an example.
-
-## ➕ Description
-
-The PERT analysis tool calculates several key metrics for project management, including:
-
-- Expected time for task completion.
-- Variance of the time estimates.
-- Earliest and latest start times for each task.
-- Earliest and latest finish times for each task.
-- Slack time for each task, indicating the flexibility in scheduling.
 
 ## How to Use ❓
 
@@ -89,11 +79,3 @@ results = pert(tasks, dependencies)
 results_df = pd.DataFrame.from_dict(results, orient='index')
 print(results_df)
 ```
-
-## Contributing
-
-Contributions to improve this tool are welcome. Feel free to fork this repository and submit your pull requests.
-
-## License
-
-[MIT License](LICENSE.md)
