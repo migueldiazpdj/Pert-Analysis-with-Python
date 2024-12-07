@@ -79,3 +79,7 @@ results = pert(tasks, dependencies)
 results_df = pd.DataFrame.from_dict(results, orient='index')
 print(results_df)
 ```
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
